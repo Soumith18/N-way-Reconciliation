@@ -4,8 +4,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println(args[0]);
-        FileReader fr1 = new FileReader("/Users/saiprasad/input_1.csv");
-        FileReader fr2 = new FileReader("/Users/saiprasad/input_2.csv");
+        FileReader fr1 = new FileReader("/Users/soumith/input_1.csv");
+        FileReader fr2 = new FileReader("/Users/soumith/input_2.csv");
         BufferedReader br1 = new BufferedReader(fr1);
         BufferedReader br2 = new BufferedReader(fr2);
         String heading1 = br1.readLine();
@@ -39,7 +39,7 @@ public class Main {
             hmap2.put(temp[0], i);
         }
 
-        FileWriter fw = new FileWriter("/Users/saiprasad/final_01.csv");
+        FileWriter fw = new FileWriter("/Users/soummith/final_01.csv");
         BufferedWriter bw = new BufferedWriter(fw);
         int index1 = 0;
         int index2 = 0;
